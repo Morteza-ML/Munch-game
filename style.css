@@ -68,4 +68,7 @@ body{
     .img1{
         display: None;
     }
+    .tas{
+        width: 100px;
+        height: 100px;
 }
