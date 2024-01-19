@@ -1,11 +1,13 @@
 body{
+    
     background-color: rgb(210, 237, 226);
 }
 .headr{
-    height: 50px;
+    height: 120px;
     text-align: center;
     font-size: 50px;
     color: brown;
+    
 }
 .tane{
     width: 80%;
@@ -63,6 +65,22 @@ body{
         display: None;
     }
     
+    #svg{
+        display: None;
+    }
+    .refresh{
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        width: 80%;
+        position: relative;
+        background-color: rgb(183, 216, 216);
+        padding: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 25px;
+    }
+    
 }
 @media(max-width:700px){
     .img1{
@@ -86,5 +104,19 @@ body{
     }
     .headr{
         height: 50px;
+    }
+    #svg{
+        position: relative;
+        right: -40%;
+        top: -89%;
+        z-index: 1;
+    }
+    .refresh{
+        display: None;
+    }
+}
+@media(min-width:1000px){
+    .refresh{
+        width: 60%;
     }
 }
