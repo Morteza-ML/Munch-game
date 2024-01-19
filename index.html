@@ -4,52 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./stylee.css" />
   </head>
   <body>
-    <div class="headr"><h1 id="h1">Game</h1></div>
-    <section class="tane">
-      <div class="plear">
-        <h2 class="tag">Plear 1</h2>
-        <div class="tas">
-          <section class="ta">
-            <div class="sercel tts5"></div>
-            <div class="sercel tts6"></div>
-          </section>
-          <section class="ta">
-            <div class="sercel tts1"></div>
-            <div class="sercel tts2"></div>
-          </section>
-          <section class="ta">
-            <div class="sercel tts3"></div>
-            <div class="sercel tts4"></div>
-          </section>
+    <form>
+      <div class="container">
+        <h1 id="h1">Game Minch</h1>
+        <p>Choose a name for each player .</p>
+        <div class="plear1">
+          <h3 class="text">plear 1</h3>
+          <input type="text" placeholder="name plear" id="nam1" name="plear1"/>
         </div>
-      </div>
-      <div class="img1">
-        <img src="./hardo.jpg" height="200px" alt="" class="imgg">
-      </div>
-      <div class="plear">
-        <h2 class="tag">Plear 2</h2>
-        <div class="tas">
-          <section class="ta">
-            <div class="sercel bbs5"></div>
-            <div class="sercel bbs6"></div>
-          </section>
-          <section class="ta">
-            <div class="sercel bbs1"></div>
-            <div class="sercel bbs2"></div>
-          </section>
-          <section class="ta">
-            <div class="sercel bbs3"></div>
-            <div class="sercel bbs4"></div>
-          </section>
+        <div class="plear2">
+          <h3 class="text">plear 2</h3>
+          <input type="text" placeholder="name plear" id="nam2" name="plear2"/>
         </div>
+        <button onclick="zakhere()" type="button" id="submit"  >OK</button>
       </div>
-    </section>
-    <div class="img">
-        <img src="./hardo.jpg" alt="" height="290px" class="imgg">
-    </div>
-    <script src="./index.js"></script>
+    </form>
+    <script src="index.js"></script>
   </body>
 </html>
