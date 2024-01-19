@@ -1,7 +1,7 @@
 function zakhere(){
     var ll =document.getElementById('nam1').value;
     var dd =document.getElementById('nam2').value;
-    if (ll.length > 10||dd.length>10){
+    if (ll.length > 10 || dd.length > 10 ){
         alert('The number of characters must be less than 10!');
     }
     else if (ll===''||dd===''){
