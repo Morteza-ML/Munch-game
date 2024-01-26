@@ -63,6 +63,7 @@ input{
         width: 280px;
         font-size: 16px;
         border-radius: 20px;
+        rigth: 0px;
     }
     .plear1,.plear2{
         padding: 7px;
