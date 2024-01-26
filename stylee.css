@@ -52,7 +52,7 @@ input{
     padding-left: 10px;
     border-radius: 20px;
     position: relative;
-    right: -13px;
+    right: -5px;
 }
 @media(min-width:500px){
     .container{
@@ -63,7 +63,6 @@ input{
         width: 280px;
         font-size: 16px;
         border-radius: 20px;
-        rigth: 0px;
     }
     .plear1,.plear2{
         padding: 7px;
