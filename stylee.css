@@ -53,6 +53,7 @@ input{
     border-radius: 20px;
     position: relative;
     right: 0px;
+    border: solid 1px #B6BBC4;
 }
 @media(min-width:500px){
     .container{
