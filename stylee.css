@@ -45,7 +45,8 @@ p{
     font-size: 17px;
 }
 input{
-    width: 220px;
+    width: 210px;
+    background: white;
 }
 @media(min-width:500px){
     .container{
